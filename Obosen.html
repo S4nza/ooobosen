@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>OBOSEN</title>
+    <style type="text/css">
+	
+      
+      
+      .cloud1 {
+  z-index: 10;
+  top:0px;
+  left:0;
+  height:100%;
+  width:100%;
+  background:url('clouda.png') 0 0;
+  -webkit-animation: moving-images 8800s ease infinite;
+     -moz-animation: moving-images 8800s ease infinite;
+       -o-animation: moving-images 8800s ease infinite;
+          animation: moving-images 8800s ease infinite;
+}
+
+@keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:-999px;}
+  100% {left:0;}
+}
+@-moz-keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:19999px;}
+  100% {left:0;}
+}
+@-webkit-keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:19999px;}
+  100% {left:0;}
+}
+@-o-keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:19999px;}
+  100% {left:0;}
+}
+
+    .cloud2 {
+  z-index: 20;
+  top:0px;
+  right:0;
+  height:100%;
+  width:100%;
+  background:url('cloudb.png') 80% 0;
+  -webkit-animation: moving-images 4000s ease infinite;
+     -moz-animation: moving-images 4000s ease infinite;
+       -o-animation: moving-images 4000s ease infinite;
+          animation: moving-images 4000s ease infinite;
+}
+
+@keyframes moving-images {
+  0%   {right:0;}
+  50%  {right:-9999px;}
+  100% {right:0;}
+}
+@-moz-keyframes moving-images {
+  0%   {right:0;}
+  50%  {right:-9999px;}
+  100% {right:0;}
+}
+@-webkit-keyframes moving-images {
+  0%   {right:0;}
+  50%  {right:-9999px;}
+  100% {right:0;}
+}
+@-o-keyframes moving-images {
+  0%   {right:0;}
+  50%  {right:-9999px;}
+  100% {right:0;}
+}
+
+    .cloud3 {
+  z-index: 30;
+  top:0px;
+  right:0;
+  height:100%;
+  width:100%;
+  background:url('cloudc.png') 40% 0;
+  -webkit-animation: moving-images 6000s ease infinite;
+     -moz-animation: moving-images 6000s ease infinite;
+       -o-animation: moving-images 6000s ease infinite;
+          animation: moving-images 6000s ease infinite;
+}
+
+@keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:-19999px;}
+  100% {left:0;}
+}
+@-moz-keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:-19999px;}
+  100% {left:0;}
+}
+@-webkit-keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:-19999px;}
+  100% {left:0;}
+}
+@-o-keyframes moving-images {
+  0%   {left:0;}
+  50%  {left:-19999px;}
+  100% {left:0;}
+}
+
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+  overflow-x: hidden;
+
+}
+
+
+
+
+
+
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+  
+  .curtain
+}
+  position: fixed;
+  z-index: 2;
+  width: 2000;
+  height: 1080px;
+
+  
+.second
+}
+  position: fixed;
+  z-index: 1000;
+  width: 2000;
+  height: 1080px;
+  
+    
+.toy
+}
+  position: fixed;
+  z-index: 1000;
+  width: 2000;
+  height: 1080px;
+
+
+  .lights
+}
+  position: fixed;
+  z-index: 1000;
+  width: 2000;
+  height: 1080px;
+
+
+.middle
+}
+  position: fixed;
+  z-index: 2000;
+  width: 500x;
+  height: 759px;
+
+}
+
+
+.shadow
+}
+  position: fixed;
+  z-index: 3000;
+  width: 500x;
+  height: 759px;
+
+}
+
+}
+    </style>
+  </head>
+  <body style="height: 200px;">
+  
+<embed src="http://tattooedshoes.com/town.mp3" loop="true" autoplay="true" width="0" height="0">
+
+	<div class="curtain scroll" style="left: 0px;">
+        <img src="./obosen/curtain.gif" alt="">
+    </div>
+	
+
+
+      <div class="second scroll" style="left: 0px;">
+        <img src="./obosen/yes.gif" alt="">
+    </div>
+	
+	
+      <div class="toy scroll" style="left: 0px;">
+        <img src="./obosen/toysoldier.gif" alt="">
+    </div>
+	
+
+      <div class="light scroll" style="left: 0px;">
+        <img src="./obosen/lights.gif" alt="">
+    </div>
+	
+
+ 
+
+        </div>
+    <div class="middle scroll" style="left: 0px;">
+        <img src="./obosen/rodrigo.gif" alt="">
+    </div>
+	
+        </div>
+		
+		
+
+        </div>
+    <div class="shadow scroll" style="left: 0px;">
+        <img src="./obosen/shad.png" alt="">
+    </div>
+	
+        </div>
+		
+
+	
+        </div>
+
+    <script type="text/javascript" src="./obosen/jquery.min.js.download"></script>
+    <script type="text/javascript" src="./obosen/jquery.jInvertScroll.js.download"></script>
+    <script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 2000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+    }(jQuery));
+    
+    
+    
+    
+
+    </script>
+
+</body></html>
